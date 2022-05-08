@@ -1,0 +1,27 @@
+:root {
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right top, #000000, #14080e, #1e0f1b, #231529, #241c39, #252b4e, #1e3b63, #004c77, #006991, #0087a4, #00a4b1, #1dc2b7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+footer {
+    margin-top: 60vh;
+}
+
+input {
+    width: 50vw;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
