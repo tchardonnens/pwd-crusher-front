@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  pwd-crusher-front:
+    build: .
+    restart: always
+    container_name: pwd-crusher-front
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pwd-crusher-front.rule=Host(`pwd-crusher.thomascdnns.com`)"
+      - "traefik.http.routers.whoami.entrypoints=web"

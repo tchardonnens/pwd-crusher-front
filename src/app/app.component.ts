@@ -9,10 +9,8 @@ export class AppComponent implements OnInit, OnDestroy {
   title = 'PwdCrusher-front';
 
   ngOnInit(): void {
-      console.log("Hello from OnInit");
   }
 
   ngOnDestroy(): void {
-      console.log("Hello from OnDestroy");
   }
 }
